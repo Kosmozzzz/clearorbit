@@ -1,5 +1,7 @@
 export const BRAND = 'ClearOrbit'
 
+export const AUTHOR = 'Cosmin Marandici'
+
 export const ROUTES = {
   home: '/',
   problem: '/problem',

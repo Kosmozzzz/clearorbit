@@ -2,7 +2,7 @@
 
 **Earth's orbit is filling up.** More than 40,000 tracked pieces of debris, over a million smaller fragments, and launches that went from about 150 satellites a year to 2,470 in 2022. ClearOrbit turns the UN's call to keep outer space safe and sustainable into four hands-on tools — and a pre-registered experiment on the algorithm that has to keep up with it all.
 
-Built on the UN global issue **[Outer space](https://www.un.org/en/global-issues/outer-space)** and the UN feature **[The Race to Save Space](https://www.un.org/en/content/feature/theracetosavespace/)**. Entry for **MoldSEF 2027** (III. Information Technology) and **Infomatrix 2027** (Software Development) by **[Student A]** and **[Student B]**, supervised by **Azamat Jayush**.
+Built on the UN global issue **[Outer space](https://www.un.org/en/global-issues/outer-space)** and the UN feature **[The Race to Save Space](https://www.un.org/en/content/feature/theracetosavespace/)**. Entry for **MoldSEF 2027** (III. Information Technology) and **Infomatrix 2027** (Software Development) by **Cosmin Marandici** (“Orizont” Theoretical Lyceum, Durlești branch), supervised by **Azamat Jayush**.
 
 ### 🔴 Live app → [clearorbit-beryl.vercel.app](https://clearorbit-beryl.vercel.app)
 
@@ -110,7 +110,7 @@ Deploy: push to GitHub, import the repo in Vercel (framework preset **Vite**), n
 - Hoots, F. R., Crawford, L. L. & Roehrich, R. L. (1984). An analytic method to determine future close approaches between satellites. *Celestial Mechanics* 33, 143–158
 - Vallado, D. A. (2013). *Fundamentals of Astrodynamics and Applications*, 4th ed. (exponential atmosphere table)
 
-**To check before the competition:** the USD 6,000/kg launch price on the clean-up page and the USD 0.05/CPU-hour cloud price are rounded list prices — confirm them against a current source and cite it.
+**To check before the competition:** prices checked on 20 Nov 2026 — launch USD 7,000/kg is the SpaceX rideshare list price (USD 350,000 for 50 kg, USD 7,000 per extra kg); USD 0.05 per CPU-hour is a round figure inside the AWS EC2 on-demand range for compute-optimised Linux instances (≈ USD 0.036–0.053 per vCPU-hour, us-east-1 / us-west-1).
 
 ## 7. Responsible AI
 

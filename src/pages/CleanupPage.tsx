@@ -8,7 +8,8 @@ import { formatNumber } from '../utils/format'
 import { EXHAUSTIVE_LIMIT, greedyRoute, optimalRoute, routeDv, routePropellant, START, TARGETS, type Target } from '../utils/removal'
 
 /** Price used to put the propellant figure in money terms; a rounded rideshare list price, stated on the page. */
-const USD_PER_KG = 6000
+/** SpaceX rideshare list price, 2026: USD 350,000 for 50 kg, USD 7,000 per extra kg. */
+const USD_PER_KG = 7000
 
 /** Altitude–inclination map of the targets and the chosen route. */
 function RouteMap({ route, compare }: { route: Target[]; compare: Target[] | null }) {

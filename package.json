@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "license": "MIT",
-  "author": "Student A, Student B",
+  "author": "Cosmin Marandici",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

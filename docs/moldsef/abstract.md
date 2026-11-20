@@ -1,8 +1,8 @@
 **THEMATIC CATEGORY:** III. Information Technology
 **PROJECT TITLE:** ClearOrbit — Scalable Conjunction Screening with Spatial Hashing for the Mega-Constellation Era, and an Interactive Platform for Space Sustainability
-**AUTHORS:** [First Name LAST NAME 1], [First Name LAST NAME 2]
+**AUTHOR:** Cosmin MARANDICI
 **GRADE:** [Grade]
-**INSTITUTION:** [High School]
+**INSTITUTION:** Liceul Teoretic „Orizont”, filiala Durlești
 
 ### 1. AIM OF THE RESEARCH & SCIENTIFIC HYPOTHESIS
 

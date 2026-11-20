@@ -1,6 +1,6 @@
 import { Section } from '../components/controls'
 import { PageHeader } from '../components/PageHeader'
-import { EXTERNAL } from '../constants/site'
+import { AUTHOR, EXTERNAL } from '../constants/site'
 import { useLanguage } from '../i18n/LanguageContext'
 
 const SOURCES = [
@@ -24,16 +24,17 @@ export function AboutPage() {
         <p className="eyebrow">{a.teamTitle}</p>
         <div className="mt-6 grid gap-4 md:grid-cols-3">
           <div className="card p-7">
-            <p className="font-semibold text-white">{a.roleA}</p>
-            <p className="mt-3 leading-relaxed text-ice/70">{a.roleABody}</p>
+            <p className="eyebrow">{a.author}</p>
+            <p className="mt-3 text-lg font-semibold text-white">{AUTHOR}</p>
+            <p className="mt-3 leading-relaxed text-ice/70">{a.authorBody}</p>
           </div>
           <div className="card p-7">
-            <p className="font-semibold text-white">{a.roleB}</p>
-            <p className="mt-3 leading-relaxed text-ice/70">{a.roleBBody}</p>
+            <p className="eyebrow">{a.school}</p>
+            <p className="mt-3 text-lg font-semibold text-white">{a.schoolName}</p>
           </div>
           <div className="card p-7">
-            <p className="font-semibold text-white">{a.supervisor}</p>
-            <p className="mt-3 leading-relaxed text-ice/70">Azamat Jayush</p>
+            <p className="eyebrow">{a.supervisor}</p>
+            <p className="mt-3 text-lg font-semibold text-white">Azamat Jayush</p>
           </div>
         </div>
 

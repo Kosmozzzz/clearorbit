@@ -31,9 +31,10 @@ _Add every later prompt here with its date, in the team's own words._
 
 ## Human responsibilities (to be completed by the team)
 
-- [ ] Read every page in all three languages and correct the wording
+- [x] Read the site in English (team, 20 Nov 2026) and Russian (a native speaker, 20 Nov 2026) — approved
+- [ ] Read the Romanian pages
 - [ ] Re-derive at least one formula per tool by hand and record it in the logbook
-- [ ] Confirm the launch price (USD/kg) and cloud price (USD/CPU-hour) against current sources
+- [x] Launch price set to USD 7,000/kg (SpaceX rideshare list price, 2026); cloud price USD 0.05/CPU-hour checked against AWS EC2 on-demand (≈ 0.036–0.053 per vCPU-hour) — 20 Nov 2026
 - [ ] Re-run `npm run benchmark` on your own laptop and log the numbers
 - [ ] Be able to explain every algorithm in the Q&A without notes
 
