@@ -1,0 +1,3719 @@
+{
+  "createdAt": "2026-11-20T16:08:38.788Z",
+  "machine": {
+    "platform": "win32",
+    "release": "10.0.26200",
+    "cpu": "Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz",
+    "node": "v24.21.0"
+  },
+  "preregistrationSha256": "1d7bf2af37c4574e4663f3f6c71c7e82f27e62cfed18377f0c66199c96b41b20",
+  "design": {
+    "sizes": [
+      250,
+      500,
+      1000,
+      2000
+    ],
+    "seeds": [
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010,
+      1011,
+      1012,
+      1013,
+      1014,
+      1015,
+      1016,
+      1017,
+      1018,
+      1019,
+      1020,
+      1021,
+      1022,
+      1023,
+      1024,
+      1025
+    ],
+    "options": {
+      "threshold": 10,
+      "window": 5400,
+      "step": 20
+    },
+    "scenarios": 100
+  },
+  "summary": [
+    {
+      "n": 250,
+      "events": {
+        "mean": 6.48,
+        "low": 5.2409121910050125,
+        "high": 7.719087808994988
+      },
+      "methods": {
+        "brute": {
+          "msMean": {
+            "mean": 49.42016800000001,
+            "low": 44.09801267753941,
+            "high": 54.742323322460614
+          },
+          "msMedian": 45.77799999999979,
+          "pairChecksMean": 8403750,
+          "checkReduction": {
+            "mean": 0,
+            "low": 0,
+            "high": 0
+          },
+          "speedup": {
+            "mean": 1,
+            "low": 1,
+            "high": 1
+          },
+          "minRecall": 1,
+          "minPrecision": 1
+        },
+        "apogee": {
+          "msMean": {
+            "mean": 22.208952000000025,
+            "low": 21.18471253282098,
+            "high": 23.23319146717907
+          },
+          "msMedian": 21.34979999999996,
+          "pairChecksMean": 2049301.24,
+          "checkReduction": {
+            "mean": 0.7561444307600772,
+            "low": 0.7532031075795504,
+            "high": 0.759085753940604
+          },
+          "speedup": {
+            "mean": 2.18765894513258,
+            "low": 1.9875330607690582,
+            "high": 2.4079356236553617
+          },
+          "minRecall": 1,
+          "minPrecision": 1
+        },
+        "grid": {
+          "msMean": {
+            "mean": 49.96695999999998,
+            "low": 47.04728483744468,
+            "high": 52.88663516255528
+          },
+          "msMedian": 47.9153,
+          "pairChecksMean": 13672.84,
+          "checkReduction": {
+            "mean": 0.9983730072884128,
+            "low": 0.9983312466584928,
+            "high": 0.9984147679183328
+          },
+          "speedup": {
+            "mean": 0.9749171222593433,
+            "low": 0.905437004100004,
+            "high": 1.0497289054573058
+          },
+          "minRecall": 1,
+          "minPrecision": 1
+        }
+      }
+    },
+    {
+      "n": 500,
+      "events": {
+        "mean": 23.2,
+        "low": 21.098500649536145,
+        "high": 25.301499350463853
+      },
+      "methods": {
+        "brute": {
+          "msMean": {
+            "mean": 168.13028399999996,
+            "low": 166.58698381712307,
+            "high": 169.67358418287685
+          },
+          "msMedian": 167.17619999999988,
+          "pairChecksMean": 33682500,
+          "checkReduction": {
+            "mean": 0,
+            "low": 0,
+            "high": 0
+          },
+          "speedup": {
+            "mean": 1,
+            "low": 1,
+            "high": 1
+          },
+          "minRecall": 1,
+          "minPrecision": 1
+        },
+        "apogee": {
+          "msMean": {
+            "mean": 70.59738399999998,
+            "low": 69.7808131724066,
+            "high": 71.41395482759336
+          },
+          "msMedian": 70.58659999999963,
+          "pairChecksMean": 7951171.96,
+          "checkReduction": {
+            "mean": 0.7639375948934907,
+            "low": 0.7609391561374551,
+            "high": 0.7669360336495262
+          },
+          "speedup": {
+            "mean": 2.381879858840188,
+            "low": 2.3448568503942084,
+            "high": 2.419487424571258
+          },
+          "minRecall": 1,
+          "minPrecision": 1
+        },
+        "grid": {
+          "msMean": {
+            "mean": 96.21802399999996,
+            "low": 95.2214738401911,
+            "high": 97.21457415980882
+          },
+          "msMedian": 95.8833999999988,
+          "pairChecksMean": 49623.64,
+          "checkReduction": {
+            "mean": 0.9985267233726712,
+            "low": 0.9985129164676682,
+            "high": 0.9985405302776743
+          },
+          "speedup": {
+            "mean": 1.7475045264402473,
+            "low": 1.7253862854840833,
+            "high": 1.7699063077184314
+          },
+          "minRecall": 1,
+          "minPrecision": 1
+        }
+      }
+    },
+    {
+      "n": 1000,
+      "events": {
+        "mean": 98.72,
+        "low": 95.17993412400277,
+        "high": 102.26006587599723
+      },
+      "methods": {
+        "brute": {
+          "msMean": {
+            "mean": 639.1610640000006,
+            "low": 638.0595700302387,
+            "high": 640.2625579697625
+          },
+          "msMedian": 639.0311000000002,
+          "pairChecksMean": 134865000,
+          "checkReduction": {
+            "mean": 0,
+            "low": 0,
+            "high": 0
+          },
+          "speedup": {
+            "mean": 1,
+            "low": 1,
+            "high": 1
+          },
+          "minRecall": 1,
+          "minPrecision": 1
+        },
+        "apogee": {
+          "msMean": {
+            "mean": 249.33459599999966,
+            "low": 247.33946029192577,
+            "high": 251.32973170807355
+          },
+          "msMedian": 248.67959999999948,
+          "pairChecksMean": 31863778.96,
+          "checkReduction": {
+            "mean": 0.763735743447151,
+            "low": 0.7622002594127317,
+            "high": 0.7652712274815703
+          },
+          "speedup": {
+            "mean": 2.5639055340918393,
+            "low": 2.544209431758757,
+            "high": 2.5837541146141274
+          },
+          "minRecall": 1,
+          "minPrecision": 1
+        },
+        "grid": {
+          "msMean": {
+            "mean": 194.92021599999936,
+            "low": 194.35886461568288,
+            "high": 195.48156738431584
+          },
+          "msMedian": 194.66839999999866,
+          "pairChecksMean": 194907.04,
+          "checkReduction": {
+            "mean": 0.9985547989470953,
+            "low": 0.9985482734455764,
+            "high": 0.9985613244486142
+          },
+          "speedup": {
+            "mean": 3.2791396975228495,
+            "low": 3.2669175346987758,
+            "high": 3.2914075857937735
+          },
+          "minRecall": 1,
+          "minPrecision": 1
+        }
+      }
+    },
+    {
+      "n": 2000,
+      "events": {
+        "mean": 375.2,
+        "low": 366.2245660071504,
+        "high": 384.1754339928496
+      },
+      "methods": {
+        "brute": {
+          "msMean": {
+            "mean": 2500.2163760000026,
+            "low": 2493.140322509018,
+            "high": 2507.292429490987
+          },
+          "msMedian": 2496.0492000000013,
+          "pairChecksMean": 539730000,
+          "checkReduction": {
+            "mean": 0,
+            "low": 0,
+            "high": 0
+          },
+          "speedup": {
+            "mean": 1,
+            "low": 1,
+            "high": 1
+          },
+          "minRecall": 1,
+          "minPrecision": 1
+        },
+        "apogee": {
+          "msMean": {
+            "mean": 963.4090079999977,
+            "low": 956.1280133734657,
+            "high": 970.6900026265297
+          },
+          "msMedian": 959.2381000000023,
+          "pairChecksMean": 127409816.2,
+          "checkReduction": {
+            "mean": 0.763937864858355,
+            "low": 0.7628938973116753,
+            "high": 0.7649818324050347
+          },
+          "speedup": {
+            "mean": 2.5955292423094765,
+            "low": 2.5745841881478198,
+            "high": 2.6166446910909147
+          },
+          "minRecall": 1,
+          "minPrecision": 1
+        },
+        "grid": {
+          "msMean": {
+            "mean": 410.5991519999999,
+            "low": 409.1343644595062,
+            "high": 412.0639395404936
+          },
+          "msMedian": 410.4285999999993,
+          "pairChecksMean": 795102,
+          "checkReduction": {
+            "mean": 0.9985268523150467,
+            "low": 0.9985227170489315,
+            "high": 0.9985309875811619
+          },
+          "speedup": {
+            "mean": 6.089272495026847,
+            "low": 6.064330811738018,
+            "high": 6.114316759719065
+          },
+          "minRecall": 1,
+          "minPrecision": 1
+        }
+      }
+    }
+  ],
+  "scaling": [
+    {
+      "n": 1000,
+      "bruteChecks": 134865000,
+      "apogee": {
+        "ms": 246.98050000000512,
+        "checks": 31466808
+      },
+      "grid": {
+        "ms": 196.242900000012,
+        "checks": 192873
+      },
+      "events": 92,
+      "agree": true
+    },
+    {
+      "n": 2000,
+      "bruteChecks": 539730000,
+      "apogee": {
+        "ms": 945.9159999999974,
+        "checks": 125770659
+      },
+      "grid": {
+        "ms": 407.2932000000146,
+        "checks": 785451
+      },
+      "events": 333,
+      "agree": true
+    },
+    {
+      "n": 4000,
+      "bruteChecks": 2159460000,
+      "apogee": {
+        "ms": 3917.3189999999886,
+        "checks": 513866337
+      },
+      "grid": {
+        "ms": 914.0027999999875,
+        "checks": 3209075
+      },
+      "events": 1587,
+      "agree": true
+    },
+    {
+      "n": 8000,
+      "bruteChecks": 8638920000,
+      "apogee": {
+        "ms": 15935.861199999985,
+        "checks": 2064279215
+      },
+      "grid": {
+        "ms": 1989.6301000000094,
+        "checks": 13271976
+      },
+      "events": 6877,
+      "agree": true
+    },
+    {
+      "n": 16000,
+      "bruteChecks": 34557840000,
+      "apogee": {
+        "ms": 69261.44090000002,
+        "checks": 8161391267
+      },
+      "grid": {
+        "ms": 4359.084600000002,
+        "checks": 54896657
+      },
+      "events": 24527,
+      "agree": true
+    }
+  ],
+  "runs": [
+    {
+      "n": 250,
+      "seed": 1001,
+      "method": "brute",
+      "ms": 45.32849999999996,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 16,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1001,
+      "method": "apogee",
+      "ms": 21.29430000000002,
+      "pairChecks": 2099790,
+      "prefilterChecks": 8024,
+      "events": 16,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1001,
+      "method": "grid",
+      "ms": 48.71199999999999,
+      "pairChecks": 13513,
+      "prefilterChecks": 0,
+      "events": 16,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1002,
+      "method": "brute",
+      "ms": 45.36859999999996,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 4,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1002,
+      "method": "apogee",
+      "ms": 22.012100000000032,
+      "pairChecks": 2084130,
+      "prefilterChecks": 7968,
+      "events": 4,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1002,
+      "method": "grid",
+      "ms": 49.091499999999996,
+      "pairChecks": 14581,
+      "prefilterChecks": 0,
+      "events": 4,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1003,
+      "method": "brute",
+      "ms": 46.84749999999997,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 4,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1003,
+      "method": "apogee",
+      "ms": 21.15429999999992,
+      "pairChecks": 1973430,
+      "prefilterChecks": 7557,
+      "events": 4,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1003,
+      "method": "grid",
+      "ms": 50.377399999999966,
+      "pairChecks": 12480,
+      "prefilterChecks": 0,
+      "events": 4,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1004,
+      "method": "brute",
+      "ms": 45.928699999999935,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 8,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1004,
+      "method": "apogee",
+      "ms": 21.75,
+      "pairChecks": 2061990,
+      "prefilterChecks": 7885,
+      "events": 8,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1004,
+      "method": "grid",
+      "ms": 49.755300000000034,
+      "pairChecks": 12837,
+      "prefilterChecks": 0,
+      "events": 8,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1005,
+      "method": "brute",
+      "ms": 45.569099999999935,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 6,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1005,
+      "method": "apogee",
+      "ms": 29.689700000000016,
+      "pairChecks": 2025270,
+      "prefilterChecks": 7750,
+      "events": 6,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1005,
+      "method": "grid",
+      "ms": 48.205299999999966,
+      "pairChecks": 13145,
+      "prefilterChecks": 0,
+      "events": 6,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1006,
+      "method": "brute",
+      "ms": 45.19420000000002,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 2,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1006,
+      "method": "apogee",
+      "ms": 29.70939999999996,
+      "pairChecks": 1992060,
+      "prefilterChecks": 7627,
+      "events": 2,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1006,
+      "method": "grid",
+      "ms": 47.9153,
+      "pairChecks": 12635,
+      "prefilterChecks": 0,
+      "events": 2,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1007,
+      "method": "brute",
+      "ms": 45.974699999999984,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 7,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1007,
+      "method": "apogee",
+      "ms": 20.994300000000067,
+      "pairChecks": 2006370,
+      "prefilterChecks": 7680,
+      "events": 7,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1007,
+      "method": "grid",
+      "ms": 47.83839999999998,
+      "pairChecks": 14271,
+      "prefilterChecks": 0,
+      "events": 7,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1008,
+      "method": "brute",
+      "ms": 45.89490000000001,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 7,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1008,
+      "method": "apogee",
+      "ms": 21.34979999999996,
+      "pairChecks": 2074410,
+      "prefilterChecks": 7932,
+      "events": 7,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1008,
+      "method": "grid",
+      "ms": 47.359899999999925,
+      "pairChecks": 12201,
+      "prefilterChecks": 0,
+      "events": 7,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1009,
+      "method": "brute",
+      "ms": 45.83220000000006,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 6,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1009,
+      "method": "apogee",
+      "ms": 21.344800000000077,
+      "pairChecks": 2037150,
+      "prefilterChecks": 7794,
+      "events": 6,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1009,
+      "method": "grid",
+      "ms": 50.77189999999996,
+      "pairChecks": 14751,
+      "prefilterChecks": 0,
+      "events": 6,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1010,
+      "method": "brute",
+      "ms": 45.907199999999875,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 11,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1010,
+      "method": "apogee",
+      "ms": 22.807700000000068,
+      "pairChecks": 2040930,
+      "prefilterChecks": 7808,
+      "events": 11,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1010,
+      "method": "grid",
+      "ms": 47.82600000000002,
+      "pairChecks": 14338,
+      "prefilterChecks": 0,
+      "events": 11,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1011,
+      "method": "brute",
+      "ms": 47.04910000000018,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 5,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1011,
+      "method": "apogee",
+      "ms": 21.617700000000013,
+      "pairChecks": 2068740,
+      "prefilterChecks": 7911,
+      "events": 5,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1011,
+      "method": "grid",
+      "ms": 48.242300000000114,
+      "pairChecks": 14117,
+      "prefilterChecks": 0,
+      "events": 5,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1012,
+      "method": "brute",
+      "ms": 46.227300000000014,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 4,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1012,
+      "method": "apogee",
+      "ms": 22.189200000000028,
+      "pairChecks": 2103030,
+      "prefilterChecks": 8038,
+      "events": 4,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1012,
+      "method": "grid",
+      "ms": 48.94489999999996,
+      "pairChecks": 14442,
+      "prefilterChecks": 0,
+      "events": 4,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1013,
+      "method": "brute",
+      "ms": 92.12310000000002,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 8,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1013,
+      "method": "apogee",
+      "ms": 21.14409999999998,
+      "pairChecks": 1998000,
+      "prefilterChecks": 7648,
+      "events": 8,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1013,
+      "method": "grid",
+      "ms": 48.79269999999997,
+      "pairChecks": 13709,
+      "prefilterChecks": 0,
+      "events": 8,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1014,
+      "method": "brute",
+      "ms": 92.3275000000001,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 9,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1014,
+      "method": "apogee",
+      "ms": 20.876500000000078,
+      "pairChecks": 2013660,
+      "prefilterChecks": 7707,
+      "events": 9,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1014,
+      "method": "grid",
+      "ms": 71.8005999999998,
+      "pairChecks": 13506,
+      "prefilterChecks": 0,
+      "events": 9,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1015,
+      "method": "brute",
+      "ms": 45.08640000000014,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 4,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1015,
+      "method": "apogee",
+      "ms": 21.324299999999994,
+      "pairChecks": 2091960,
+      "prefilterChecks": 7997,
+      "events": 4,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1015,
+      "method": "grid",
+      "ms": 73.55770000000007,
+      "pairChecks": 14952,
+      "prefilterChecks": 0,
+      "events": 4,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1016,
+      "method": "brute",
+      "ms": 45.542299999999614,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 8,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1016,
+      "method": "apogee",
+      "ms": 21.156099999999697,
+      "pairChecks": 2031750,
+      "prefilterChecks": 7774,
+      "events": 8,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1016,
+      "method": "grid",
+      "ms": 46.48869999999988,
+      "pairChecks": 12523,
+      "prefilterChecks": 0,
+      "events": 8,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1017,
+      "method": "brute",
+      "ms": 45.99279999999999,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 5,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1017,
+      "method": "apogee",
+      "ms": 20.490800000000036,
+      "pairChecks": 1934280,
+      "prefilterChecks": 7413,
+      "events": 5,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1017,
+      "method": "grid",
+      "ms": 46.240499999999884,
+      "pairChecks": 13996,
+      "prefilterChecks": 0,
+      "events": 5,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1018,
+      "method": "brute",
+      "ms": 45.132300000000214,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 6,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1018,
+      "method": "apogee",
+      "ms": 20.86030000000028,
+      "pairChecks": 2049570,
+      "prefilterChecks": 7840,
+      "events": 6,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1018,
+      "method": "grid",
+      "ms": 46.448199999999815,
+      "pairChecks": 13511,
+      "prefilterChecks": 0,
+      "events": 6,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1019,
+      "method": "brute",
+      "ms": 45.039400000000114,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 10,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1019,
+      "method": "apogee",
+      "ms": 21.657799999999952,
+      "pairChecks": 2135700,
+      "prefilterChecks": 8158,
+      "events": 10,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1019,
+      "method": "grid",
+      "ms": 45.878400000000056,
+      "pairChecks": 12932,
+      "prefilterChecks": 0,
+      "events": 10,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1020,
+      "method": "brute",
+      "ms": 45.22540000000026,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 9,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1020,
+      "method": "apogee",
+      "ms": 21.621999999999844,
+      "pairChecks": 1984500,
+      "prefilterChecks": 7598,
+      "events": 9,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1020,
+      "method": "grid",
+      "ms": 53.48090000000002,
+      "pairChecks": 14822,
+      "prefilterChecks": 0,
+      "events": 9,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1021,
+      "method": "brute",
+      "ms": 46.027500000000146,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 5,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1021,
+      "method": "apogee",
+      "ms": 25.825500000000375,
+      "pairChecks": 2091150,
+      "prefilterChecks": 7994,
+      "events": 5,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1021,
+      "method": "grid",
+      "ms": 46.74209999999994,
+      "pairChecks": 15127,
+      "prefilterChecks": 0,
+      "events": 5,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1022,
+      "method": "brute",
+      "ms": 45.77799999999979,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 6,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1022,
+      "method": "apogee",
+      "ms": 20.69300000000021,
+      "pairChecks": 1961550,
+      "prefilterChecks": 7514,
+      "events": 6,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1022,
+      "method": "grid",
+      "ms": 46.5619999999999,
+      "pairChecks": 13089,
+      "prefilterChecks": 0,
+      "events": 6,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1023,
+      "method": "brute",
+      "ms": 45.22479999999996,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 5,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1023,
+      "method": "apogee",
+      "ms": 21.784400000000005,
+      "pairChecks": 2140020,
+      "prefilterChecks": 8172,
+      "events": 5,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1023,
+      "method": "grid",
+      "ms": 45.9974000000002,
+      "pairChecks": 13913,
+      "prefilterChecks": 0,
+      "events": 5,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1024,
+      "method": "brute",
+      "ms": 45.28060000000005,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 3,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1024,
+      "method": "apogee",
+      "ms": 20.36409999999978,
+      "pairChecks": 1926720,
+      "prefilterChecks": 7384,
+      "events": 3,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1024,
+      "method": "grid",
+      "ms": 46.202000000000226,
+      "pairChecks": 12914,
+      "prefilterChecks": 0,
+      "events": 3,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1025,
+      "method": "brute",
+      "ms": 45.602100000000064,
+      "pairChecks": 8403750,
+      "prefilterChecks": 0,
+      "events": 4,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1025,
+      "method": "apogee",
+      "ms": 21.51160000000027,
+      "pairChecks": 2111130,
+      "prefilterChecks": 8068,
+      "events": 4,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 250,
+      "seed": 1025,
+      "method": "grid",
+      "ms": 45.94259999999986,
+      "pairChecks": 13516,
+      "prefilterChecks": 0,
+      "events": 4,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1001,
+      "method": "brute",
+      "ms": 171.01839999999993,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 18,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1001,
+      "method": "apogee",
+      "ms": 69.36539999999968,
+      "pairChecks": 7869690,
+      "prefilterChecks": 29644,
+      "events": 18,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1001,
+      "method": "grid",
+      "ms": 94.27570000000014,
+      "pairChecks": 49648,
+      "prefilterChecks": 0,
+      "events": 18,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1002,
+      "method": "brute",
+      "ms": 167.7446,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 28,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1002,
+      "method": "apogee",
+      "ms": 69.38250000000016,
+      "pairChecks": 7845930,
+      "prefilterChecks": 29557,
+      "events": 28,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1002,
+      "method": "grid",
+      "ms": 94.70010000000002,
+      "pairChecks": 48525,
+      "prefilterChecks": 0,
+      "events": 28,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1003,
+      "method": "brute",
+      "ms": 165.6868000000004,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 25,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1003,
+      "method": "apogee",
+      "ms": 67.04840000000013,
+      "pairChecks": 7664760,
+      "prefilterChecks": 28885,
+      "events": 25,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1003,
+      "method": "grid",
+      "ms": 94.01489999999967,
+      "pairChecks": 51079,
+      "prefilterChecks": 0,
+      "events": 25,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1004,
+      "method": "brute",
+      "ms": 168.2440999999999,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 22,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1004,
+      "method": "apogee",
+      "ms": 68.89230000000043,
+      "pairChecks": 7733610,
+      "prefilterChecks": 29141,
+      "events": 22,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1004,
+      "method": "grid",
+      "ms": 93.97570000000087,
+      "pairChecks": 49732,
+      "prefilterChecks": 0,
+      "events": 22,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1005,
+      "method": "brute",
+      "ms": 166.23869999999988,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 15,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1005,
+      "method": "apogee",
+      "ms": 71.69480000000021,
+      "pairChecks": 7712010,
+      "prefilterChecks": 29061,
+      "events": 15,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1005,
+      "method": "grid",
+      "ms": 94.64259999999922,
+      "pairChecks": 50212,
+      "prefilterChecks": 0,
+      "events": 15,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1006,
+      "method": "brute",
+      "ms": 166.89099999999962,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 34,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1006,
+      "method": "apogee",
+      "ms": 72.75160000000051,
+      "pairChecks": 8502570,
+      "prefilterChecks": 31989,
+      "events": 34,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1006,
+      "method": "grid",
+      "ms": 96.15869999999995,
+      "pairChecks": 48388,
+      "prefilterChecks": 0,
+      "events": 34,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1007,
+      "method": "brute",
+      "ms": 167.17619999999988,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 27,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1007,
+      "method": "apogee",
+      "ms": 69.11219999999958,
+      "pairChecks": 7740360,
+      "prefilterChecks": 29166,
+      "events": 27,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1007,
+      "method": "grid",
+      "ms": 94.57079999999951,
+      "pairChecks": 49159,
+      "prefilterChecks": 0,
+      "events": 27,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1008,
+      "method": "brute",
+      "ms": 169.09660000000076,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 23,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1008,
+      "method": "apogee",
+      "ms": 70.85580000000027,
+      "pairChecks": 8069760,
+      "prefilterChecks": 30386,
+      "events": 23,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1008,
+      "method": "grid",
+      "ms": 98.13159999999971,
+      "pairChecks": 48407,
+      "prefilterChecks": 0,
+      "events": 23,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1009,
+      "method": "brute",
+      "ms": 165.1803000000009,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 22,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1009,
+      "method": "apogee",
+      "ms": 70.84349999999995,
+      "pairChecks": 8014680,
+      "prefilterChecks": 30182,
+      "events": 22,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1009,
+      "method": "grid",
+      "ms": 94.21519999999964,
+      "pairChecks": 51438,
+      "prefilterChecks": 0,
+      "events": 22,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1010,
+      "method": "brute",
+      "ms": 166.3747999999996,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 21,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1010,
+      "method": "apogee",
+      "ms": 75.3125,
+      "pairChecks": 7791390,
+      "prefilterChecks": 29356,
+      "events": 21,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1010,
+      "method": "grid",
+      "ms": 94.63220000000001,
+      "pairChecks": 49189,
+      "prefilterChecks": 0,
+      "events": 21,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1011,
+      "method": "brute",
+      "ms": 169.04399999999987,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 21,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1011,
+      "method": "apogee",
+      "ms": 67.29070000000047,
+      "pairChecks": 7578090,
+      "prefilterChecks": 28566,
+      "events": 21,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1011,
+      "method": "grid",
+      "ms": 97.52960000000076,
+      "pairChecks": 48647,
+      "prefilterChecks": 0,
+      "events": 21,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1012,
+      "method": "brute",
+      "ms": 165.84539999999924,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 26,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1012,
+      "method": "apogee",
+      "ms": 69.39629999999943,
+      "pairChecks": 7783020,
+      "prefilterChecks": 29325,
+      "events": 26,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1012,
+      "method": "grid",
+      "ms": 94.3741,
+      "pairChecks": 50688,
+      "prefilterChecks": 0,
+      "events": 26,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1013,
+      "method": "brute",
+      "ms": 165.77070000000003,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 15,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1013,
+      "method": "apogee",
+      "ms": 69.23959999999988,
+      "pairChecks": 7911000,
+      "prefilterChecks": 29798,
+      "events": 15,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1013,
+      "method": "grid",
+      "ms": 93.26969999999983,
+      "pairChecks": 49229,
+      "prefilterChecks": 0,
+      "events": 15,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1014,
+      "method": "brute",
+      "ms": 166.61459999999988,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 27,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1014,
+      "method": "apogee",
+      "ms": 70.58659999999963,
+      "pairChecks": 7590510,
+      "prefilterChecks": 28609,
+      "events": 27,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1014,
+      "method": "grid",
+      "ms": 97.89620000000014,
+      "pairChecks": 49244,
+      "prefilterChecks": 0,
+      "events": 27,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1015,
+      "method": "brute",
+      "ms": 165.95550000000003,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 29,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1015,
+      "method": "apogee",
+      "ms": 72.11019999999917,
+      "pairChecks": 7992540,
+      "prefilterChecks": 30100,
+      "events": 29,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1015,
+      "method": "grid",
+      "ms": 96.3177999999998,
+      "pairChecks": 49686,
+      "prefilterChecks": 0,
+      "events": 29,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1016,
+      "method": "brute",
+      "ms": 165.33550000000105,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 30,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1016,
+      "method": "apogee",
+      "ms": 70.82629999999881,
+      "pairChecks": 8083800,
+      "prefilterChecks": 30439,
+      "events": 30,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1016,
+      "method": "grid",
+      "ms": 94.19690000000082,
+      "pairChecks": 49292,
+      "prefilterChecks": 0,
+      "events": 30,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1017,
+      "method": "brute",
+      "ms": 165.3610000000008,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 19,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1017,
+      "method": "apogee",
+      "ms": 71.54739999999947,
+      "pairChecks": 8263890,
+      "prefilterChecks": 31105,
+      "events": 19,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1017,
+      "method": "grid",
+      "ms": 95.55919999999969,
+      "pairChecks": 48229,
+      "prefilterChecks": 0,
+      "events": 19,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1018,
+      "method": "brute",
+      "ms": 169.20559999999932,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 18,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1018,
+      "method": "apogee",
+      "ms": 72.30370000000039,
+      "pairChecks": 8214210,
+      "prefilterChecks": 30922,
+      "events": 18,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1018,
+      "method": "grid",
+      "ms": 97.21379999999954,
+      "pairChecks": 51643,
+      "prefilterChecks": 0,
+      "events": 18,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1019,
+      "method": "brute",
+      "ms": 168.1257999999998,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 25,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1019,
+      "method": "apogee",
+      "ms": 71.02670000000035,
+      "pairChecks": 7985250,
+      "prefilterChecks": 30074,
+      "events": 25,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1019,
+      "method": "grid",
+      "ms": 101.69050000000061,
+      "pairChecks": 51653,
+      "prefilterChecks": 0,
+      "events": 25,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1020,
+      "method": "brute",
+      "ms": 167.3786999999993,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 13,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1020,
+      "method": "apogee",
+      "ms": 74.72760000000017,
+      "pairChecks": 8245530,
+      "prefilterChecks": 31037,
+      "events": 13,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1020,
+      "method": "grid",
+      "ms": 96.57320000000072,
+      "pairChecks": 50349,
+      "prefilterChecks": 0,
+      "events": 13,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1021,
+      "method": "brute",
+      "ms": 168.35760000000118,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 27,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1021,
+      "method": "apogee",
+      "ms": 69.87640000000101,
+      "pairChecks": 7483590,
+      "prefilterChecks": 28215,
+      "events": 27,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1021,
+      "method": "grid",
+      "ms": 103.18359999999848,
+      "pairChecks": 49632,
+      "prefilterChecks": 0,
+      "events": 27,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1022,
+      "method": "brute",
+      "ms": 168.14749999999913,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 22,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1022,
+      "method": "apogee",
+      "ms": 72.20280000000093,
+      "pairChecks": 8187750,
+      "prefilterChecks": 30823,
+      "events": 22,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1022,
+      "method": "grid",
+      "ms": 98.19750000000022,
+      "pairChecks": 48194,
+      "prefilterChecks": 0,
+      "events": 22,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1023,
+      "method": "brute",
+      "ms": 178.29370000000017,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 26,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1023,
+      "method": "apogee",
+      "ms": 69.04919999999947,
+      "pairChecks": 7898850,
+      "prefilterChecks": 29752,
+      "events": 26,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1023,
+      "method": "grid",
+      "ms": 96.09610000000066,
+      "pairChecks": 48665,
+      "prefilterChecks": 0,
+      "events": 26,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1024,
+      "method": "brute",
+      "ms": 180.6328999999987,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 26,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1024,
+      "method": "apogee",
+      "ms": 70.21659999999974,
+      "pairChecks": 7915590,
+      "prefilterChecks": 29816,
+      "events": 26,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1024,
+      "method": "grid",
+      "ms": 95.8833999999988,
+      "pairChecks": 51220,
+      "prefilterChecks": 0,
+      "events": 26,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1025,
+      "method": "brute",
+      "ms": 165.53709999999955,
+      "pairChecks": 33682500,
+      "prefilterChecks": 0,
+      "events": 21,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1025,
+      "method": "apogee",
+      "ms": 69.27549999999974,
+      "pairChecks": 7955010,
+      "prefilterChecks": 29961,
+      "events": 21,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 500,
+      "seed": 1025,
+      "method": "grid",
+      "ms": 98.15149999999994,
+      "pairChecks": 48443,
+      "prefilterChecks": 0,
+      "events": 21,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1001,
+      "method": "brute",
+      "ms": 642.6866000000009,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 92,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1001,
+      "method": "apogee",
+      "ms": 248.261199999999,
+      "pairChecks": 31738770,
+      "prefilterChecks": 118548,
+      "events": 92,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1001,
+      "method": "grid",
+      "ms": 193.3818999999985,
+      "pairChecks": 193790,
+      "prefilterChecks": 0,
+      "events": 92,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1002,
+      "method": "brute",
+      "ms": 634.6751999999997,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 92,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1002,
+      "method": "apogee",
+      "ms": 246.60770000000048,
+      "pairChecks": 31649400,
+      "prefilterChecks": 118219,
+      "events": 92,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1002,
+      "method": "grid",
+      "ms": 195.01900000000023,
+      "pairChecks": 194287,
+      "prefilterChecks": 0,
+      "events": 92,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1003,
+      "method": "brute",
+      "ms": 640.0188000000016,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 105,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1003,
+      "method": "apogee",
+      "ms": 246.943299999999,
+      "pairChecks": 31981500,
+      "prefilterChecks": 119447,
+      "events": 105,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1003,
+      "method": "grid",
+      "ms": 194.47839999999997,
+      "pairChecks": 197066,
+      "prefilterChecks": 0,
+      "events": 105,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1004,
+      "method": "brute",
+      "ms": 642.4510000000009,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 95,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1004,
+      "method": "apogee",
+      "ms": 250.33989999999903,
+      "pairChecks": 32190480,
+      "prefilterChecks": 120222,
+      "events": 95,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1004,
+      "method": "grid",
+      "ms": 195.5095999999994,
+      "pairChecks": 195074,
+      "prefilterChecks": 0,
+      "events": 95,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1005,
+      "method": "brute",
+      "ms": 638.4891000000025,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 100,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1005,
+      "method": "apogee",
+      "ms": 248.67959999999948,
+      "pairChecks": 31837050,
+      "prefilterChecks": 118914,
+      "events": 100,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1005,
+      "method": "grid",
+      "ms": 196.7498999999989,
+      "pairChecks": 194791,
+      "prefilterChecks": 0,
+      "events": 100,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1006,
+      "method": "brute",
+      "ms": 639.0138999999981,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 95,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1006,
+      "method": "apogee",
+      "ms": 247.61469999999827,
+      "pairChecks": 31992030,
+      "prefilterChecks": 119486,
+      "events": 95,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1006,
+      "method": "grid",
+      "ms": 193.48660000000018,
+      "pairChecks": 194916,
+      "prefilterChecks": 0,
+      "events": 95,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1007,
+      "method": "brute",
+      "ms": 641.3953000000001,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 119,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1007,
+      "method": "apogee",
+      "ms": 251.71220000000176,
+      "pairChecks": 32299560,
+      "prefilterChecks": 120625,
+      "events": 119,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1007,
+      "method": "grid",
+      "ms": 193.01250000000073,
+      "pairChecks": 196532,
+      "prefilterChecks": 0,
+      "events": 119,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1008,
+      "method": "brute",
+      "ms": 641.1758999999984,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 98,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1008,
+      "method": "apogee",
+      "ms": 259.21900000000096,
+      "pairChecks": 31741470,
+      "prefilterChecks": 118559,
+      "events": 98,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1008,
+      "method": "grid",
+      "ms": 194.2518999999993,
+      "pairChecks": 190352,
+      "prefilterChecks": 0,
+      "events": 98,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1009,
+      "method": "brute",
+      "ms": 637.1167999999998,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 87,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1009,
+      "method": "apogee",
+      "ms": 244.20780000000013,
+      "pairChecks": 31384260,
+      "prefilterChecks": 117236,
+      "events": 87,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1009,
+      "method": "grid",
+      "ms": 195.3034000000007,
+      "pairChecks": 196192,
+      "prefilterChecks": 0,
+      "events": 87,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1010,
+      "method": "brute",
+      "ms": 641.6480999999985,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 86,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1010,
+      "method": "apogee",
+      "ms": 251.26280000000042,
+      "pairChecks": 32101110,
+      "prefilterChecks": 119888,
+      "events": 86,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1010,
+      "method": "grid",
+      "ms": 193.22369999999864,
+      "pairChecks": 190631,
+      "prefilterChecks": 0,
+      "events": 86,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1011,
+      "method": "brute",
+      "ms": 637.4436999999998,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 102,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1011,
+      "method": "apogee",
+      "ms": 242.95960000000196,
+      "pairChecks": 30766770,
+      "prefilterChecks": 114947,
+      "events": 102,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1011,
+      "method": "grid",
+      "ms": 194.41059999999925,
+      "pairChecks": 196311,
+      "prefilterChecks": 0,
+      "events": 102,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1012,
+      "method": "brute",
+      "ms": 643.3001000000004,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 105,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1012,
+      "method": "apogee",
+      "ms": 249.77830000000176,
+      "pairChecks": 32212080,
+      "prefilterChecks": 120301,
+      "events": 105,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1012,
+      "method": "grid",
+      "ms": 196.96929999999702,
+      "pairChecks": 194937,
+      "prefilterChecks": 0,
+      "events": 105,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1013,
+      "method": "brute",
+      "ms": 639.3760000000002,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 102,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1013,
+      "method": "apogee",
+      "ms": 247.2528999999995,
+      "pairChecks": 31740390,
+      "prefilterChecks": 118555,
+      "events": 102,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1013,
+      "method": "grid",
+      "ms": 193.09709999999905,
+      "pairChecks": 198830,
+      "prefilterChecks": 0,
+      "events": 102,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1014,
+      "method": "brute",
+      "ms": 637.5144,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 88,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1014,
+      "method": "apogee",
+      "ms": 255.39579999999842,
+      "pairChecks": 31264920,
+      "prefilterChecks": 116794,
+      "events": 88,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1014,
+      "method": "grid",
+      "ms": 194.72149999999965,
+      "pairChecks": 193552,
+      "prefilterChecks": 0,
+      "events": 88,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1015,
+      "method": "brute",
+      "ms": 639.0311000000002,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 100,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1015,
+      "method": "apogee",
+      "ms": 243.65299999999843,
+      "pairChecks": 31399380,
+      "prefilterChecks": 117291,
+      "events": 100,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1015,
+      "method": "grid",
+      "ms": 197.0020000000004,
+      "pairChecks": 195205,
+      "prefilterChecks": 0,
+      "events": 100,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1016,
+      "method": "brute",
+      "ms": 639.2784000000029,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 92,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1016,
+      "method": "apogee",
+      "ms": 244.28299999999945,
+      "pairChecks": 30985200,
+      "prefilterChecks": 115759,
+      "events": 92,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1016,
+      "method": "grid",
+      "ms": 193.48140000000058,
+      "pairChecks": 198392,
+      "prefilterChecks": 0,
+      "events": 92,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1017,
+      "method": "brute",
+      "ms": 639.0304999999971,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 106,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1017,
+      "method": "apogee",
+      "ms": 258.54629999999815,
+      "pairChecks": 32754240,
+      "prefilterChecks": 122310,
+      "events": 106,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1017,
+      "method": "grid",
+      "ms": 194.66839999999866,
+      "pairChecks": 192865,
+      "prefilterChecks": 0,
+      "events": 106,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1018,
+      "method": "brute",
+      "ms": 639.630799999999,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 99,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1018,
+      "method": "apogee",
+      "ms": 244.3152000000009,
+      "pairChecks": 31369140,
+      "prefilterChecks": 117179,
+      "events": 99,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1018,
+      "method": "grid",
+      "ms": 197.54429999999775,
+      "pairChecks": 194906,
+      "prefilterChecks": 0,
+      "events": 99,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1019,
+      "method": "brute",
+      "ms": 643.1784999999982,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 97,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1019,
+      "method": "apogee",
+      "ms": 255.39590000000317,
+      "pairChecks": 31915890,
+      "prefilterChecks": 119204,
+      "events": 97,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1019,
+      "method": "grid",
+      "ms": 194.0565999999999,
+      "pairChecks": 193857,
+      "prefilterChecks": 0,
+      "events": 97,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1020,
+      "method": "brute",
+      "ms": 635.1890000000021,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 108,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1020,
+      "method": "apogee",
+      "ms": 254.1877999999997,
+      "pairChecks": 32121090,
+      "prefilterChecks": 119963,
+      "events": 108,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1020,
+      "method": "grid",
+      "ms": 194.64949999999953,
+      "pairChecks": 195354,
+      "prefilterChecks": 0,
+      "events": 108,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1021,
+      "method": "brute",
+      "ms": 634.260199999997,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 106,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1021,
+      "method": "apogee",
+      "ms": 242.9748000000036,
+      "pairChecks": 31111020,
+      "prefilterChecks": 116224,
+      "events": 106,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1021,
+      "method": "grid",
+      "ms": 197.119200000001,
+      "pairChecks": 194297,
+      "prefilterChecks": 0,
+      "events": 106,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1022,
+      "method": "brute",
+      "ms": 637.1930000000066,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 92,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1022,
+      "method": "apogee",
+      "ms": 244.50249999999505,
+      "pairChecks": 30850740,
+      "prefilterChecks": 115261,
+      "events": 92,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1022,
+      "method": "grid",
+      "ms": 194.6863000000012,
+      "pairChecks": 197183,
+      "prefilterChecks": 0,
+      "events": 92,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1023,
+      "method": "brute",
+      "ms": 637.9510000000009,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 101,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1023,
+      "method": "apogee",
+      "ms": 249.80089999999473,
+      "pairChecks": 31970700,
+      "prefilterChecks": 119405,
+      "events": 101,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1023,
+      "method": "grid",
+      "ms": 196.12999999999738,
+      "pairChecks": 197058,
+      "prefilterChecks": 0,
+      "events": 101,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1024,
+      "method": "brute",
+      "ms": 642.3394000000044,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 115,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1024,
+      "method": "apogee",
+      "ms": 250.35050000000047,
+      "pairChecks": 31880250,
+      "prefilterChecks": 119070,
+      "events": 115,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1024,
+      "method": "grid",
+      "ms": 194.48839999999473,
+      "pairChecks": 191394,
+      "prefilterChecks": 0,
+      "events": 115,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1025,
+      "method": "brute",
+      "ms": 635.6398000000045,
+      "pairChecks": 134865000,
+      "prefilterChecks": 0,
+      "events": 86,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1025,
+      "method": "apogee",
+      "ms": 255.12019999999757,
+      "pairChecks": 32372730,
+      "prefilterChecks": 120897,
+      "events": 86,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 1000,
+      "seed": 1025,
+      "method": "grid",
+      "ms": 195.563900000001,
+      "pairChecks": 194904,
+      "prefilterChecks": 0,
+      "events": 86,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1001,
+      "method": "brute",
+      "ms": 2496.0492000000013,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 424,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1001,
+      "method": "apogee",
+      "ms": 975.5155000000013,
+      "pairChecks": 128373390,
+      "prefilterChecks": 477448,
+      "events": 424,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1001,
+      "method": "grid",
+      "ms": 418.7644999999975,
+      "pairChecks": 798780,
+      "prefilterChecks": 0,
+      "events": 424,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1002,
+      "method": "brute",
+      "ms": 2494.599500000004,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 381,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1002,
+      "method": "apogee",
+      "ms": 951.8536999999997,
+      "pairChecks": 125710920,
+      "prefilterChecks": 467592,
+      "events": 381,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1002,
+      "method": "grid",
+      "ms": 413.7842000000019,
+      "pairChecks": 788166,
+      "prefilterChecks": 0,
+      "events": 381,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1003,
+      "method": "brute",
+      "ms": 2496.070899999999,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 386,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1003,
+      "method": "apogee",
+      "ms": 963.954700000002,
+      "pairChecks": 128184120,
+      "prefilterChecks": 476753,
+      "events": 386,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1003,
+      "method": "grid",
+      "ms": 409.03029999999853,
+      "pairChecks": 793211,
+      "prefilterChecks": 0,
+      "events": 386,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1004,
+      "method": "brute",
+      "ms": 2488.3045000000056,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 404,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1004,
+      "method": "apogee",
+      "ms": 965.4030999999959,
+      "pairChecks": 127723500,
+      "prefilterChecks": 475049,
+      "events": 404,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1004,
+      "method": "grid",
+      "ms": 409.87379999999393,
+      "pairChecks": 801471,
+      "prefilterChecks": 0,
+      "events": 404,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1005,
+      "method": "brute",
+      "ms": 2503.6565000000046,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 360,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1005,
+      "method": "apogee",
+      "ms": 957.5175000000017,
+      "pairChecks": 126326250,
+      "prefilterChecks": 469870,
+      "events": 360,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1005,
+      "method": "grid",
+      "ms": 409.1586000000025,
+      "pairChecks": 785531,
+      "prefilterChecks": 0,
+      "events": 360,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1006,
+      "method": "brute",
+      "ms": 2491.9348000000027,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 394,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1006,
+      "method": "apogee",
+      "ms": 966.3741999999984,
+      "pairChecks": 127952460,
+      "prefilterChecks": 475890,
+      "events": 394,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1006,
+      "method": "grid",
+      "ms": 412.9092000000019,
+      "pairChecks": 794772,
+      "prefilterChecks": 0,
+      "events": 394,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1007,
+      "method": "brute",
+      "ms": 2492.986299999997,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 360,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1007,
+      "method": "apogee",
+      "ms": 953.372500000005,
+      "pairChecks": 126144270,
+      "prefilterChecks": 469197,
+      "events": 360,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1007,
+      "method": "grid",
+      "ms": 407.46770000000106,
+      "pairChecks": 799358,
+      "prefilterChecks": 0,
+      "events": 360,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1008,
+      "method": "brute",
+      "ms": 2489.823199999999,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 388,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1008,
+      "method": "apogee",
+      "ms": 957.9621999999945,
+      "pairChecks": 127410030,
+      "prefilterChecks": 473885,
+      "events": 388,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1008,
+      "method": "grid",
+      "ms": 410.4285999999993,
+      "pairChecks": 796462,
+      "prefilterChecks": 0,
+      "events": 388,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1009,
+      "method": "brute",
+      "ms": 2495.1022000000085,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 351,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1009,
+      "method": "apogee",
+      "ms": 942.0239999999903,
+      "pairChecks": 124236720,
+      "prefilterChecks": 462133,
+      "events": 351,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1009,
+      "method": "grid",
+      "ms": 412.7694999999949,
+      "pairChecks": 805089,
+      "prefilterChecks": 0,
+      "events": 351,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1010,
+      "method": "brute",
+      "ms": 2498.038499999995,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 375,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1010,
+      "method": "apogee",
+      "ms": 959.2381000000023,
+      "pairChecks": 125891010,
+      "prefilterChecks": 468258,
+      "events": 375,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1010,
+      "method": "grid",
+      "ms": 411.4090000000142,
+      "pairChecks": 797552,
+      "prefilterChecks": 0,
+      "events": 375,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1011,
+      "method": "brute",
+      "ms": 2490.2981,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 392,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1011,
+      "method": "apogee",
+      "ms": 966.0738999999885,
+      "pairChecks": 127123560,
+      "prefilterChecks": 472825,
+      "events": 392,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1011,
+      "method": "grid",
+      "ms": 407.7130999999936,
+      "pairChecks": 789589,
+      "prefilterChecks": 0,
+      "events": 392,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1012,
+      "method": "brute",
+      "ms": 2571.6628999999957,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 358,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1012,
+      "method": "apogee",
+      "ms": 961.7137999999977,
+      "pairChecks": 126669690,
+      "prefilterChecks": 471145,
+      "events": 358,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1012,
+      "method": "grid",
+      "ms": 414.0454000000027,
+      "pairChecks": 796555,
+      "prefilterChecks": 0,
+      "events": 358,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1013,
+      "method": "brute",
+      "ms": 2497.1762000000017,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 402,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1013,
+      "method": "apogee",
+      "ms": 987.7877000000008,
+      "pairChecks": 128981700,
+      "prefilterChecks": 479707,
+      "events": 402,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1013,
+      "method": "grid",
+      "ms": 404.7017000000051,
+      "pairChecks": 799416,
+      "prefilterChecks": 0,
+      "events": 402,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1014,
+      "method": "brute",
+      "ms": 2489.8190999999933,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 395,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1014,
+      "method": "apogee",
+      "ms": 1003.0581999999995,
+      "pairChecks": 128061810,
+      "prefilterChecks": 476300,
+      "events": 395,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1014,
+      "method": "grid",
+      "ms": 407.5703000000067,
+      "pairChecks": 799628,
+      "prefilterChecks": 0,
+      "events": 395,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1015,
+      "method": "brute",
+      "ms": 2527.1407999999938,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 339,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1015,
+      "method": "apogee",
+      "ms": 946.5414999999921,
+      "pairChecks": 125536770,
+      "prefilterChecks": 466945,
+      "events": 339,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1015,
+      "method": "grid",
+      "ms": 412.0454999999929,
+      "pairChecks": 794148,
+      "prefilterChecks": 0,
+      "events": 339,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1016,
+      "method": "brute",
+      "ms": 2494.621100000004,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 365,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1016,
+      "method": "apogee",
+      "ms": 958.8696000000054,
+      "pairChecks": 126550620,
+      "prefilterChecks": 470700,
+      "events": 365,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1016,
+      "method": "grid",
+      "ms": 411.4627999999939,
+      "pairChecks": 789878,
+      "prefilterChecks": 0,
+      "events": 365,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1017,
+      "method": "brute",
+      "ms": 2492.071000000011,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 384,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1017,
+      "method": "apogee",
+      "ms": 966.6728000000003,
+      "pairChecks": 128505420,
+      "prefilterChecks": 477940,
+      "events": 384,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1017,
+      "method": "grid",
+      "ms": 411.5060999999987,
+      "pairChecks": 791990,
+      "prefilterChecks": 0,
+      "events": 384,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1018,
+      "method": "brute",
+      "ms": 2503.402700000006,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 375,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1018,
+      "method": "apogee",
+      "ms": 958.1581999999908,
+      "pairChecks": 126503640,
+      "prefilterChecks": 470527,
+      "events": 375,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1018,
+      "method": "grid",
+      "ms": 418.0138999999908,
+      "pairChecks": 791213,
+      "prefilterChecks": 0,
+      "events": 375,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1019,
+      "method": "brute",
+      "ms": 2497.806500000006,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 358,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1019,
+      "method": "apogee",
+      "ms": 944.0464999999967,
+      "pairChecks": 124916310,
+      "prefilterChecks": 464650,
+      "events": 358,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1019,
+      "method": "grid",
+      "ms": 405.8484000000026,
+      "pairChecks": 802355,
+      "prefilterChecks": 0,
+      "events": 358,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1020,
+      "method": "brute",
+      "ms": 2489.077000000005,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 386,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1020,
+      "method": "apogee",
+      "ms": 971.4234999999899,
+      "pairChecks": 127658430,
+      "prefilterChecks": 474802,
+      "events": 386,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1020,
+      "method": "grid",
+      "ms": 407.8150000000023,
+      "pairChecks": 802680,
+      "prefilterChecks": 0,
+      "events": 386,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1021,
+      "method": "brute",
+      "ms": 2502.693100000004,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 345,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1021,
+      "method": "apogee",
+      "ms": 945.4057999999932,
+      "pairChecks": 125213040,
+      "prefilterChecks": 465745,
+      "events": 345,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1021,
+      "method": "grid",
+      "ms": 408.32820000000356,
+      "pairChecks": 792539,
+      "prefilterChecks": 0,
+      "events": 345,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1022,
+      "method": "brute",
+      "ms": 2504.0889000000025,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 378,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1022,
+      "method": "apogee",
+      "ms": 953.0678999999946,
+      "pairChecks": 126098640,
+      "prefilterChecks": 469029,
+      "events": 378,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1022,
+      "method": "grid",
+      "ms": 406.2817000000068,
+      "pairChecks": 798992,
+      "prefilterChecks": 0,
+      "events": 378,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1023,
+      "method": "brute",
+      "ms": 2490.2632000000012,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 386,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1023,
+      "method": "apogee",
+      "ms": 967.2828999999911,
+      "pairChecks": 128933640,
+      "prefilterChecks": 479523,
+      "events": 386,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1023,
+      "method": "grid",
+      "ms": 413.9575000000041,
+      "pairChecks": 792334,
+      "prefilterChecks": 0,
+      "events": 386,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1024,
+      "method": "brute",
+      "ms": 2496.1483000000153,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 357,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1024,
+      "method": "apogee",
+      "ms": 945.5071000000025,
+      "pairChecks": 125777880,
+      "prefilterChecks": 467840,
+      "events": 357,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1024,
+      "method": "grid",
+      "ms": 412.38859999999113,
+      "pairChecks": 785548,
+      "prefilterChecks": 0,
+      "events": 357,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1025,
+      "method": "brute",
+      "ms": 2512.574900000007,
+      "pairChecks": 539730000,
+      "prefilterChecks": 0,
+      "events": 337,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1025,
+      "method": "apogee",
+      "ms": 1016.4003000000084,
+      "pairChecks": 128958210,
+      "prefilterChecks": 479622,
+      "events": 337,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "n": 2000,
+      "seed": 1025,
+      "method": "grid",
+      "ms": 407.7051999999967,
+      "pairChecks": 790293,
+      "prefilterChecks": 0,
+      "events": 337,
+      "recall": 1,
+      "precision": 1
+    }
+  ]
+}
