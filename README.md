@@ -4,9 +4,9 @@
 
 Built on the UN global issue **[Outer space](https://www.un.org/en/global-issues/outer-space)** and the UN feature **[The Race to Save Space](https://www.un.org/en/content/feature/theracetosavespace/)**. Entry for **MoldSEF 2027** (III. Information Technology) and **Infomatrix 2027** (Software Development) by **[Student A]** and **[Student B]**, supervised by **Azamat Jayush**.
 
-### 🔴 Live app → _add the Vercel link after the first deploy_
+### 🔴 Live app → [clearorbit-beryl.vercel.app](https://clearorbit-beryl.vercel.app)
 
-### 📦 Source code → _add the GitHub link_
+### 📦 Source code → [github.com/Kosmozzzz/clearorbit](https://github.com/Kosmozzzz/clearorbit)
 
 ---
 

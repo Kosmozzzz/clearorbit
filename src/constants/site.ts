@@ -22,5 +22,5 @@ export const EXTERNAL = {
   esaDebris: 'https://www.esa.int/Space_Safety/Space_Debris/Space_debris_by_the_numbers',
   nasaOdpo: 'https://orbitaldebris.jsc.nasa.gov',
   lts: 'https://www.unoosa.org/oosa/en/ourwork/topics/long-term-sustainability-of-outer-space-activities.html',
-  repo: 'https://github.com/',
+  repo: 'https://github.com/Kosmozzzz/clearorbit',
 } as const
